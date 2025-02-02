@@ -26,14 +26,38 @@ h2{
 p {
     padding-top: 15px;
     padding-right: 30px;
+    padding-left: 50px;
+    color:black;
 }
 
 .bulletpoint {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 50px;
     margin-top: 25px;
+    border-bottom-style: solid;
+    border-color:darkgoldenrod;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    
 }
 
-.block {
-    
+.image {
+    width: 300px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pointone {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border: 1px solid;
+    padding: 50px 0 50px 350px;
+    box-sizing: border-box;
+    border-collapse: separate;
 }
