@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    background-color:darksalmon;
+}
+h1 {
+    color: blueviolet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6vw;
+    font-variation-settings:
+        "width" 100;
+    font-style: normal;
+    font-weight: 700;
+    font-optical-sizing: auto;
+}
+
+h2 {
+    font-size: 4vw;
+}
+
+/* vw is viewport width */
+
+p {
+    
+    /* this is a comment
+    margin-top: 50px;
+    margin-left: 100px;
+    */
+   
+    padding: 0px;
+    margin: 50px 0 50px 100px;
+
+    /* shorthand is top right bottom left */
+
+    /*width: 25%;*/
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+header {
+    display: block;
+    width: 75%;
+    padding: 50px;
+    text-align: center;
+    margin: 20px auto 40px auto;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.poemtext {
+    display: flex;
+    flex-direction: row;
+}
+
+.poemimage {
+    width: 50%;
+}
+
+.poemline {
+    width: 50%;
+}
+
+.poemimage img {
+    width: 100s%;
+}
