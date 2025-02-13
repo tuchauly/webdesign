@@ -21,7 +21,7 @@ body {
 }
 
 .summary {
-    position: relative;
+    position: absolute;
     left: 100px;
     top: 200px;
     width: 40%;
@@ -52,7 +52,7 @@ body {
 #author {
     width: 100%;
     height:100vh;
-    background-color: #0d2c49;
+    background-color: #100348;
     background-size: cover;
     background-position: bottom;
 }
@@ -64,8 +64,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 1230px;
-    left: 250px;
+    top: 1120px;
+    left: 247px;
 }
 
 .stardust {
@@ -75,8 +75,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    right: 597px;
-    top: 1230px;
+    right: 510px;
+    top: 1120px;
 }
 
 .interworld {
@@ -86,8 +86,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    right: 180px;
-    top: 1230px;
+    right: 160px;
+    top: 1120px;
 }
 
 .biography {
@@ -126,23 +126,24 @@ body {
 .otherworks {
     width: 100%;
     position: relative;
-    left: 100px;
+    left: 170px;
     top: 80px;
     font-family: "Combo", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .otherworks li {
     display: inline-block;
-    margin: 350px 150px 0 180px;
+    margin: 350px 150px 350px 110px;
     font-family: "Amarante", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
     text-align: center;
+    
 }
 
 .otherworks li a {
@@ -157,10 +158,46 @@ body {
 
 #purchase {
     width: 100%;
-    height: 100vh;
-    background-image: url(images/coraline-cat-and-house.jpg);
+    height: 45vh;
+    background-color: #0d2c49;
     background-size: cover;
-    background-position: bottom;
+}
+
+.amazonpic img {
+    width: 280px;
+    position: absolute;
+    top: 1640px;
+    left: 150px;
+}
+
+.barnespic img {
+    width: 450px;
+    position: absolute;
+    top: 1532px;
+    right: 500px;
+}
+
+.targetpic img {
+    width: 200px;
+    position: absolute;
+    top: 1600px;
+    right: 250px;
+}
+
+.words h1 {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link h2 {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
 
 /* REVIEWS SECTION */
@@ -168,7 +205,35 @@ body {
 #reviews {
     width: 100%;
     height: 100vh;
-    background-image:
+}
+
+.flex-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    width: 33.3%;
+    margin: 0 50px 0 50px;
+}
+
+.review h4 {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+}
+
+.review h5 {
+    font-family: "Combo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 10px;
 }
 
 /* ADAPTATIONS SECTION */
@@ -176,9 +241,11 @@ body {
 #adaptations {
     width: 100%;
     height: 100vh;
-    background-image: url(images/coraline-swirl-background.jpg);
+    background-image: url(images/coraline-cat-and-house.jpg);
     background-position: center;
     position: relative;
+    background-position: bottom;
+    background-size: cover;
 }
 
 /* HEADER */
@@ -207,4 +274,8 @@ header li a:hover {
     color: #d8c615;
     background-color: blue;
     text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
 }
