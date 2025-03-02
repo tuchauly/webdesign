@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 20px 0 10px 0;
+    color:#fbb39a;
+}
+
+header h2 {
+    font-size: 40px;
+    color:black;
+}
+
+body {
+    background-image: url(images/beach-background.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#lyrics {
+    height: 82vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text p {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.world {
+    color: rosybrown;
+    opacity: .5;
+    transition: all 2s;
+    display: inline-block;
+}
+
+.world:hover {
+    cursor: grab;
+    opacity: 1;
+    transform: scale(2,2) translate(50px,-50px);
+}
+
+.dream {
+    color: skyblue;
+    display: inline-block;
+    opacity: .2;
+    transition: all 3s;
+}
+
+.dream:hover {
+    opacity: 1;
+    cursor: grabbing;
+    transform: rotate(360deg);
+}
+
+.up {
+    display: inline-block;
+    color:burlywood;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    transition: all 2s;
+}
+
+.up:hover {
+    cursor: pointer;
+    transform: translate(0,-50px) scale(2.5,2.5);
+}
+
+.seats {
+    display: inline-block;
+    color: #ffd5a4;
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+    transition: all 2s;
+}
+
+.seats:hover {
+    transform: translate(-1000px,0);
+    cursor: move;
+}
+
+.shoes {
+    display: inline-block;
+    color:#5a6cb8;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    transition: all 1s;
+}
+
+.shoes:hover {
+    transform: rotate(180deg);
+}
+
+.down {
+    display: inline-block;
+    color:#ba7893;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    transition: all 2s;
+}
+
+.down:hover {
+    transform: translate(0,1000px);
+    cursor:all-scroll;
+}
+
+.up2 {
+    display: inline-block;
+    color:#ffd5a4;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    transition: all 2s;
+}
+
+.up2:hover {
+    transform: translate(100px,-50px) scale(2.5,2.5);
+    cursor: pointer;
+}
+
+.aye {
+    display: inline-block;
+    color:#fbb39a;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    transition: all .5s;
+}
+
+.aye:hover {
+    transform: rotate(180deg);
+}
+
+.aye2 {
+    display: inline-block;
+    color: #fbb39a;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    transition: all .5s;
+}
+
+.aye2:hover {
+    transform: rotate(-180deg);
+}
+
+.out {
+    display: inline-block;
+    color:#5a6cb8;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    transition: all 2s;
+}
+
+.out:hover {
+    transform: translate(0,-1000px);
+}
+
+.love {
+    display: inline-block;
+    color:pink;
+    transition: all 2s;
+    opacity: .1;
+    background-color: red;
+}
+
+.love:hover {
+    opacity: 1;
+    background-color: pink;
+    color: red;
+}
+
+.singing {
+    display: inline-block;
+    color:#ba7893;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    transition: all 2s;
+}
+
+.singing:hover {
+    transform: scale(3,3);
+}
+
+.you {
+    display: inline-block;
+    color:#bed1ef;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.you:hover {
+    cursor: pointer;
+    opacity: 1;
+}
