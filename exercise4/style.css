@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#ff8989;
+}
+
+#block1 {
+    background-color: #ffe4e4;
+    width: 100%;
+    height: 45vh;
+    animation-name: flow;
+    animation-duration: 10s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#block2 {
+    background-color: #ff5858;
+    color: pink;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+@keyframes flow {
+    0% {
+        width: 80%;
+        height: 50vh;
+    }
+
+    50% {
+        width: 40%;
+        height: 80vh;
+    }
+
+    100% {
+        width: 60%;
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    body {
+        background-color: pink;
+    }
+
+    #block1 {
+        background-color: #ff5858;
+    }
+
+    #block2 {
+        background-color: white;
+    }
+
+    #egg {
+        width: 20%;
+        height: 20vh;
+        background-image: url(images/flamingo-egg.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        z-index: 100;
+        top: 15%;
+        left: 20vh;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    body {
+        background-color:#ff8989;
+    }
+
+    #block1 {
+        background-color: white;
+    }
+
+    #block2 {
+        background-color: pink;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    #hatch {
+        width: 20%;
+        height: 20vh;
+        background-image: url(images/egg-hatch.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        z-index: 101;
+        top: 15%;
+        left: 60vh;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+
+    #block1 {
+        background-color: pink;
+    }
+
+    #block2 {
+        background-color:#ff8989;
+    }
+
+    #baby {
+        width: 40%;
+        height: 40vh;
+        background-image: url(images/baby-flamingo.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        z-index: 102;
+        top: 30%;
+        left: 20vh;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        background-color:#ffe4e4;
+    }
+
+    #block1 {
+        background-color: #ff5858;
+    }
+
+    #block2 {
+        background-color:#ff8989;
+    }
+
+    #young {
+        width: 40%;
+        height: 40vh;
+        background-image: url(images/young-flamingo.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        z-index: 103;
+        top: 35%;
+        left: 30vh;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    body {
+        background-color:white;
+    }
+
+    #block1 {
+        background-color: #ff5858;
+    }
+
+    #block2 {
+        background-color: white;
+    }
+
+    #adult {
+        width: 100%;
+        height: 80vh;
+        background-image: url(images/flamingo.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        z-index: 104;
+        top: 20%;
+        left: 5vh;
+    }
+}
