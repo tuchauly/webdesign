@@ -244,3 +244,29 @@ audio {
     padding: 0 5%;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+@media screen and (max-width: 600px) {
+    #page2-him .parent, #page3-him .parent, #page2-her .parent, #page3-her .parent {
+        display: block;
+    }
+
+    #page2-him .div2, #page3-him .div2, #page2-her .div2, #page3-her .div2 {
+        height: 100%;
+    }
+
+    #page2-him .div1, #page3-him .div1, #page2-her .div1, #page3-her .div1 {
+        padding: 20% 5%;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .div2 {
+        background-position: center;
+    }
+}
